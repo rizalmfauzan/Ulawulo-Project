@@ -1,21 +1,21 @@
 public class Manager extends Person {
-    private String idManager;
+    private int idManager;
     private String nameManager;
     private String divisi;
     private String phoneManager;
 
-    public Manager(String idManager, String nameManager, String divisi, String phoneManager) {
+    public Manager(int idManager, String nameManager, String divisi, String phoneManager) {
         setIdManager(idManager);
         setNameManager(nameManager);
         setDivisi(divisi);
         setPhoneManager(phoneManager);
     }
     
-    public String getIdManager(){
+    public int getIdManager(){
         return idManager;
     }
     
-    public void setIdManager(String idManager){
+    public void setIdManager(int idManager){
         this.idManager = idManager;
     }
 
